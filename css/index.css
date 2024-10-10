@@ -166,6 +166,7 @@ ol {
 }
 .img-masjid {
   height: 554px;
+  object-fit: cover;
 }
 .lightbox_img_wrap {
   overflow: hidden;
