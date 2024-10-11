@@ -41,6 +41,9 @@
                         <li class="nav-item">
                             <a class="nav-link text-black py-3 mx-2" id="contact-link" href="#contactUs">Contact</a>
                         </li>
+                         <li class="nav-item"></li>
+                            <a class="nav-link text-black py-3 mx-2" id="donate-link" href="#donate">Donate</a>
+                        </li>
                     </ul>
                     <a href="https://wa.me/9829111512" class="button-1 bg-red text-white border-3 color-1">WhatsApp
                     </a>
@@ -153,7 +156,7 @@
 
         </div>
     </section>
-    <section class="sec-3">
+    <section class="sec-3" id="donate">
         <div class="container">
             <div class="Product text-center">
                 <h4 class="mb-5">Donate</h4>
@@ -316,6 +319,16 @@
         event.preventDefault();
 
         document.querySelector("#contactUs").scrollIntoView({
+            behavior: "smooth",
+            block: "start",
+            inline: "nearest"
+        });
+    });
+
+    document.getElementById("donate-link").addEventListener("click", function (event) {
+        event.preventDefault();
+
+        document.querySelector("#donate").scrollIntoView({
             behavior: "smooth",
             block: "start",
             inline: "nearest"
