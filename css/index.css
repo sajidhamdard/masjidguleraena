@@ -342,6 +342,7 @@ ol {
   animation-duration: 0.5s;
   animation-timing-function: ease;
 }
+
 @keyframes slideright {
   33% {
     transform: translateX(300px);
